@@ -1,3 +1,5 @@
+
+
 # Copy your solution from conditional_exercise.rb
 # Create an empty stories array. This will be used to hold all of our stories we capture.
 # Users enter the story as they do now, but it gets put in a hash instead. 
@@ -69,6 +71,7 @@ show_all_stories(stories)
 # Add each story to a array and display your "Front page"
 # Figure out how to get to the data you need in the source you choose
 
+<<<<<<< HEAD
 # Copy your solution from conditional_exercise.rb
 # Create an empty stories array. This will be used to hold all of our stories we capture.
 # Users enter the story as they do now, but it gets put in a hash instead. 
@@ -121,4 +124,6 @@ calculate_upvotes(story)
 stories << story
 show_new_story_notification(story)
 show_all_stories stories
+=======
+>>>>>>> c57cc9194b4428422ab7079634a1ccc400b96140
 
