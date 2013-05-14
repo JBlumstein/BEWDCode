@@ -1,6 +1,5 @@
 require 'json'
 require 'rest-client'
-require_relative 'story'
 
 class RemoteSource
   def self.get
@@ -10,3 +9,10 @@ class RemoteSource
     end
   end
 end
+
+print self.get
+
+=begin
+res_hash["data"]["children"].map do |properties|
+  story = properties["data"]
+  "#{story['title']}, #{story['ups']}"
